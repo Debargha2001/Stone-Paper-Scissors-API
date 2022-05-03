@@ -3,6 +3,8 @@ Stone Paper Scissors API using Node.Js where number of players is 4.
 All user input values are genarated via random numbers. No need for a user input.
 It is a 4 player game.
 
+To start the server run the command "npm start"
+
 API: /game/start
 
 Method: GET
