@@ -17,6 +17,7 @@ module.exports.fetchResult = async (req,res) => {
         
         let output = [];
         const possible_choices = ['rock', 'paper', 'scissors'];
+        // creating players object which contains each player as a key
         for(let i=1;i<=numOfPlayers;i++){
             players[`Player${i}`] = new Player(numOfPlayers,i);
         }
