@@ -24,33 +24,26 @@ RESPONSE:
             },
             "playerWins": {
                 "player1": {
-                    "against": {
                         "player2": 1,
                         "player3": 1,
                         "player4": 1
-                    }
-                },
+                    },
+
                 "player2": {
-                    "against": {
                         "player1": 0,
                         "player3": 0,
                         "player4": 0
-                    }
-                },
+                    },
                 "player3": {
-                    "against": {
                         "player1": 0,
                         "player2": 0,
                         "player4": 0
                     }
-                },
                 "player4": {
-                    "against": {
                         "player1": 0,
                         "player2": 0,
                         "player3": 0
                     }
-                }
             }
         }
    }]
