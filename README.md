@@ -5,7 +5,7 @@ It is a 4 player game.
 
 To start the server run the command "npm start"
 
-API: /game/start
+API: /game/start/:num
 
 Method: GET
 
